@@ -36,7 +36,7 @@ h2{
   color: #240015;
   font-weight: 300;
   font-family: Audiowide;
-  text-shadow: 0px 0px 4px #12000a;
+  text-shadow: 0px 0px 4px #12000a00;
   animation: fadeInText 2s ease-in 3.5s forwards, flicker4 5s linear 7.5s infinite, hueRotate 6s ease-in-out 3s infinite;
 }
 h1{
@@ -51,7 +51,7 @@ h1{
   color: #240015;
   font-weight: 300;
   font-family: Audiowide;
-  text-shadow: 0px 0px 4px #12000a;
+  text-shadow: 0px 0px 4px #ffffff00;
   animation: fadeInText2 2s ease-in 3.5s forwards, hueRotate 6s;
 }
 
@@ -174,13 +174,13 @@ div{
 }
 
 @keyframes fadeInText{
-  1%  {color: #12000a;text-shadow:0px 0px 4px #12000a00;}
+  1%  {color: #12000a00;text-shadow:0px 0px 4px #ffffff00;}
   70% {color: #ff005d;text-shadow:0px 0px 14px #ff005d;}
   100%{color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
 }
 
 @keyframes fadeInText2{
-  1%  {color: #12000a;text-shadow:0px 0px 4px #12000a00;}
+  1%  {color: #ffffff00;text-shadow:0px 0px 4px #ffffff00;}
   70% {color: #0c6b88;text-shadow:0px 0px 14px #08569a;}
   100%{color: #00c3ff;text-shadow:0px 0px 4px #074f67;}
 }
