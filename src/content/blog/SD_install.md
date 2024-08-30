@@ -1,6 +1,6 @@
 ---
-title: 'Installing SD Webui'
-description: 'by M6rshm3ll0w'
+title: 'Установка SD Webui от Automatic 1111'
+description: 'от M6rshm3ll0w'
 pubDate: 'Aug 29 2024'
 heroImage: '/blog-placeholder-HowtoinstallSD.jpeg'
 ---
@@ -14,11 +14,9 @@ _Тут подумал и решил указать на каких моделя
 
 ヾ(＠⌒ー⌒＠)ノ
 
-_____________
 
 > | [My_Generations](https://disk.yandex.ru/d/iYEzC5I5NcbMCw) | <
 
-‾‾‾‾‾‾‾‾‾‾‾‾
 
 **Гайд для _Windows_, при условии, что у вас есть видеокарта** _XD_ 😎
 
@@ -47,7 +45,7 @@ _____________
 ```bash
 set COMMANDLINE_ARGS и после "=" напишите
 ```
-
+⠀
 > --precision full --no-half --opt-sdp-attention --autolaunch --skip-torch-cuda-test
 
 *при малом количестве видеопамяти добавьте --medvram (>6 гб видеопамяти, почти не влияет на производительность, но снижает кол-во исп. памяти);
@@ -77,7 +75,7 @@ set COMMANDLINE_ARGS= --precision full
 --no-half --opt-sdp-attention 
 --autolaunch --skip-torch-cuda-test
 ```
-
+⠀
 ##### #3#
 
 Последнее, что нам надо сделать перед тем, как продолжить, надо синхронизировать git теги. Для этого откройте в CMD директорию SD и выполните команду
@@ -85,17 +83,18 @@ set COMMANDLINE_ARGS= --precision full
 ``` bash
 git fetch
 ```
+⠀
 
 И так начнем......
 
 
 #### 1. скачиваем архив
-
-[https://codeload.github.com/serpotapov/stable-diffusion-portable/zip/refs/heads/main](https://codeload.github.com/serpotapov/stable-diffusion-portable/zip/refs/heads/main)
+⠀
+вот [архив](https://codeload.github.com/serpotapov/stable-diffusion-portable/zip/refs/heads/main)
 
 ![](https://telegra.ph/file/5d3668e2b0263be0c9a3a.jpg)
 
-вот как выглядит файл
+так выглядит файл
 
 #### 2. распаковываем его в любое место
 
