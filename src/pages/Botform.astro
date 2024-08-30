@@ -1,2 +1,31 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
 
-<script src="https://forms.yandex.ru/_static/embed.js"></script><iframe src="https://forms.yandex.ru/u/66d19a1243f74f07c4fdbada/?iframe=1" frameborder="0" name="ya-form-66d19a1243f74f07c4fdbada" width="650"></iframe>
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/ >	
+	</head>
+	<body>
+		<Header />
+		<main>
+            <div class="form">
+            <script src="https://forms.yandex.ru/_static/embed.js"></script>
+            <iframe src="https://forms.yandex.ru/cloud/66d1b568d046880d05271b8d/?iframe=1" frameborder="0" 
+            name="ya-form-66d1b568d046880d05271b8d" width="650" height="750" ></iframe>
+            </div>
+        </main>
+        <Footer />
+    </body>
+
+</html>
+<style>
+    .form {
+        display: flex;
+        justify-content: center;
+    }
+</style>
