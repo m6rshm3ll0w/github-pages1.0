@@ -38,9 +38,9 @@ div{
 
 h2{
   position: absolute;
-  top: 15%;
+  top: 50%;
   left: 50%;
-  margin-top: 150px;
+  margin-top: 200px;
   font-size: 49px;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
@@ -53,7 +53,7 @@ h2{
 }
 h1{
   position: absolute;
-  top: 53%;
+  top: 47%;
   left: 50%;
   margin-top: 150px;
   font-size: 32px;
