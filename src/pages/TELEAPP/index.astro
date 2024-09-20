@@ -6,7 +6,7 @@
         <script src="https://telegram.org/js/telegram-web-app.js">
             var WebApp = window.Telegram.WebApp;
             var text_area = document.getElementsByClassName('text_area');
-            //WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
+            WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
             
             text_area.innerHTML = `Добро пожаловать, @${WebApp.WebAppUser.username}.`
         </script>
